@@ -1,4 +1,6 @@
 body {
 background-color: grey;
-color: black;
+color: magenta;
+font: italic 1.2em "Fira Sans", serif;
+border: 2rem solid;
 }
