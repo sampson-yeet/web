@@ -1,6 +1,15 @@
+h1 {
+  color: yellow
+}
+  
+  
+
 body {
-background-color: grey;
-color: magenta;
-font: italic 1.2em "Fira Sans", serif;
-border: 2rem solid;
+  background-color: magenta;
+}
+
+p {
+  color: grey;
+  font: italic 1.2em "Fira Sans", serif;
+  border: 2rem solid;
 }
