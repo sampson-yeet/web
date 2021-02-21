@@ -11,3 +11,7 @@ p {
   font: italic 1.2em "Fira Sans", serif;
   border: 2rem solid;
 }
+
+.fit-picture {
+  width: 250px
+}
