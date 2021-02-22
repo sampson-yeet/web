@@ -1,14 +1,14 @@
 h1 {
-  color: yellow
+  color: #00008B
 }
   
 body {
-  background-color: blue;
+  background-color: #FFEBCD;
 }
 
 p {
-  color: orange;
-  font: italic 1.2em "Fira Sans", serif;
+  color: #FFD700;
+  font: italic 30px "Fira Sans", serif;
   border: 2rem solid;
 }
 
