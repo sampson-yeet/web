@@ -7,9 +7,9 @@ body {
 }
 
 p {
-  color: #FFD700;
+  color: #000000;
   font: italic 30px "Fira Sans", serif;
-  border: 2rem solid;
+  border: 1rem solid
 }
 
 .fit-picture {
