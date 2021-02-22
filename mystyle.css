@@ -21,7 +21,7 @@ p {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #DEB887;
+  background-color: green;
 }
 
 .nav-bar li {
@@ -30,7 +30,7 @@ p {
 
 .nav-bar li a {
   display: block;
-  color: #6495ED;
+  color: #white;
   text-align: center;
   padding: 8px
 }
