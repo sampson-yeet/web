@@ -16,26 +16,26 @@ p {
   width: 250px
 }
 
-ul {
+.nav-bar ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #F0FFFF;
+  background-color: #DEB887;
 }
 
-li {
+.nav-bar li {
   float: left;
 }
 
-li a {
+.nav-bar li a {
   display: block;
-  color: #FFEBCD;
+  color: #6495ED;
   text-align: center;
   padding: 8px
 }
 
-li a:hover {
+.nav-bar a:hover {
   background-color: #000000;
 }
 
