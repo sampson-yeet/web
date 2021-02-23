@@ -23,7 +23,7 @@ p {
   width: 50%;
 }
 
-.nav ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -31,18 +31,18 @@ p {
   background-color: green;
 }
 
-.nav li {
+nav li {
   float: left;
 }
 
-.nav li a {
+nav li a {
   display: block;
   color: white;
   text-align: center;
   padding: 8px
 }
 
-.nav a:hover {
+nav a:hover {
   background-color: black;
 }
 
