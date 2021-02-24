@@ -1,5 +1,6 @@
 h1 {
   color: #00008B
+  font-size: 60px
 }
   
 body {
@@ -8,7 +9,7 @@ body {
 
 p {
   color: #000000;
-  font: Brush Script MT 30px, Brush Script Std, cursive;
+  font: italic 30px "Fira Sans", serif;
   border: 1rem solid
 }
 
