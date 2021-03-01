@@ -15,7 +15,7 @@ p {
 }
 
 a {
-  color: #ff9900
+  color: #ff9900;
 }
 
 img {
@@ -46,6 +46,10 @@ nav li a {
 
 nav a:hover {
   background-color: black;
+}
+
+.a {
+  color: yellow;
 }
 
 
