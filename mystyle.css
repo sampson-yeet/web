@@ -1,19 +1,24 @@
 h1 {
-  color: #00008B
+  font-family: fantasy;
   font-size: 60px;
+  color: yellow;
 }
-  
+
 body {
-  background-color: #FFEBCD;
+  background-color: black;
 }
 
 p {
-  color: #000000;
+  color: #ffcc00;
   font: italic 30px "Fira Sans", serif;
-  border: 1rem solid
+  border: 1rem solid;
 }
 
-  img {
+a {
+  color: #ff9900
+}
+
+img {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -25,7 +30,7 @@ nav ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: green;
+  background-color: #3399ff;
 }
 
 nav li {
@@ -36,7 +41,7 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 8px
+  padding: 8px;
 }
 
 nav a:hover {
