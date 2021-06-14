@@ -1,0 +1,74 @@
+body {
+  background-color: #203647;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 60px;
+  color: yellow;
+  display: inline;
+}
+
+h2 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #D8EEEE;
+  display: inline;
+}
+
+h3 {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  color: #7E8883;
+}
+
+.info {
+  column-count: 1;
+}
+
+.header {
+  margin: 50px
+}
+
+.headerp{
+  color: #D8EEEE;
+}
+
+p {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 22px;
+}
+
+.R_container {
+  background: #F4EDD9;
+  margin-bottom: 15px;
+  margin-top: 85px;
+  margin-right: 200px;
+  padding: 10px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+}
+
+.L_container {
+  background: #F4EDD9;
+  margin-bottom: 15px;
+  margin-top: 85px;
+  margin-left: 200px;
+  padding: 10px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+ul{
+  font-size: 22px;
+}
