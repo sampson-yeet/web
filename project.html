@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <title>5-minute Survey</title>
+  </head>
+
+  <body>
+    <div class="header">
+      <h1>5-minute Survey</h1> <h2>(Faiza Huda, Sampson Ye Pd 4)</h2>
+      <p>
+        <span class="headerp">
+        This project is presented in the form of a survey that asks the user questions about their use of technology. Some responses may unlock some strange messages. As the user progresses, they may also encounter some awfully suspicious and irrelevant questions that may be connected to the.... let's just say strange things may occur. 
+        </span>
+      </p>
+    </div>
+
+    <div class = "R_container">
+      <h3>Project Description</h3>
+      <p>
+        A short text based survey with audio stimulation in order to help the user relax.
+      </p>
+    </div>
+
+    <div class = "L_container">
+      <h3>Instructions</h3>
+      <p>
+        To begin the survey, run the program. After that, the survey should appear in the shell. There will be different types of questions asked. Answer "yes" or "no" to yes/no questions or with a number when asked for a number unless otherwise specified. Then, sit back and enjoy the experience!
+      </p>
+    </div>
+
+    <div class = "R_container">
+      <h3>How It Works</h3>
+      <p>
+        There is a background music played throughout the running of the program by using the pygame mixer module. The questions are stored in a .txt file that the program reads and creates a dictionary where the keys are the questions and the values are the possible followup subquestions. Each question is then outputted into the user shell. Depending on the answers and the keyword that was omitted in the question, a score will be kept where depending on its amount, the user will get one of two endings. 
+      </p>
+    </div>
+
+    <div class = "L_container">
+      <h3>Files</h3>
+      <p>
+        <ul>
+          <li>projectcode.py: Python program that runs the shell and has the code</li>
+          <li>project.txt: List of questions</li>
+          <li>rain.mp3: Background music</li>
+          <li>[name].ogg: Various sound effects</li>
+        </ul>
+      </p>
+    </div>
+
+    <div class = "R_container">
+      <h3>Libraries</h3>
+      <p>
+        Pygame <br>
+        Our program relies on audio for ambience and a general quality user experience. In order to use audio, we’ve decided it would be best to use Pygame and its mixer module. The module from pygame will allow us to be able to load and play mp3 files. The most important aspect of the mixer is that it can overlay sound on top of the background music which is crucial to the functionality of the project.
+        <br>
+        <br>
+        Time and Sys <br>
+        This project also will import the time library for the use of sleep. As sleep() pauses a program for a few seconds, it was used to delay the output of characters in order to make a typing effect. Since Python normally starts a new line in the shell after each print command, we can stop this by using system commands. The first command, sys.stdout.write(), is just like print except that it doesn't create a new line. The second, sys.stdout.flush(), forces Python to write everything they have in buffer to the terminal without having to wait.
+      </p>
+    </div>
+
+    <div class = "L_container">
+      <h3>Resources</h3>
+      <p>
+        <ul>
+          <li>Pygame Mixer: 
+            <a  href="https://www.pygame.org/docs/ref/mixer.html">Official Documentation</a> </li>
+          <li>Python Documentation:
+            <a href="https://docs.python.org/3/library/sys.html">System Specific Functions</a>
+            <a href="https://docs.python.org/3/library/time.html">Time</a> </li>
+          <li>Music: 
+            <a href="https://www.youtube.com/watch?v=Cl1dyPcZo6s&list=PLIgQoMZ6E_CfmHzcgzHqGjsH276wQInF_"> Playlist</a> </li>
+        </ul>
+      </p>
+    </div>
+
+    <div class = "R_container">
+      <h3>Bugs, Errors and Things to be Aware of</h3>
+      <p>
+        There seems to be a difference between MacOS users and Windows users in this issue. After downloading all the files, you may need to open some or all files in order for Thonny to access them. However, sometimes, users on MacOS may not need to do so and can run the program smoothly. In order to have an enjoyable experience, we suggest you first try to run the program without opening all of files.
+
+    </div>
+
+</html>
